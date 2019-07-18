@@ -1,0 +1,40 @@
+/* 用户基本信息 */
+.user_info_box .user_name {
+  padding-top: 16px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #E4E4E4;
+  font-size: 15px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #191919;
+}
+.user_info_box .user_name .title {
+  margin-left: 20px;
+  margin-right: 163px;
+}
+.user_info_box .user_name.introduction {
+  display: flex;
+}
+.user_info_box .user_name.introduction input {
+  flex: 1;
+  font-size: 15px;
+  padding-bottom: 144px;
+  padding-top: 12px;
+  margin-right: 0;
+}
+/* 下一步 */
+.userInfo_next {
+  width: 282px;
+  height: 50px;
+  background: #ff8b00;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 230px auto 100px;
+  cursor: pointer;
+}

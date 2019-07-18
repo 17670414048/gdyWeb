@@ -1,0 +1,51 @@
+@baseColor: rgba(255, 0, 0, 1);
+@userColor: rgba(25, 25, 25, 1);
+@lineColor: #E4E4E4;
+@baseSize: 15px;
+
+/* 用户基本信息 */
+.user_info_box {
+    .user_name {
+        padding-top: 16px;
+        padding-bottom: 25px;
+        border-bottom: 2px solid @lineColor;
+        font-size: @baseSize;
+        font-family: PingFangSC-Medium;
+        font-weight: 500;
+        color: @userColor;
+
+        .title {
+            margin-left: 20px;
+            margin-right: 163px;
+        }
+
+        &.introduction {
+            display: flex;
+
+            input {
+                flex: 1;
+                font-size: 15px;
+                padding-bottom: 144px;
+                padding-top: 12px;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+/* 下一步 */
+.userInfo_next {
+    width: 282px;
+    height: 50px;
+    background: rgba(255, 139, 0, 1);
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 230px auto 100px;
+    cursor: pointer;
+}

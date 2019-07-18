@@ -1,0 +1,7 @@
+import Vue from 'vue'
+import moment from 'moment'
+
+//定义全局过滤器
+Vue.filter('dateFmt', (input, formatStr = 'YYYY-MM-DD') => {
+    return moment(input).format(formatStr)
+})
