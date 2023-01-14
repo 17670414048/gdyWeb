@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "dplayer": "^1.25.0",
+    "dplayer": "^1.27.0",
     "element-ui": "^2.4.11",
     "vant": "^1.6.7",
     "vue": "^2.5.21",
